@@ -9,10 +9,10 @@ $_bubble_borders_color: $fg_color;
 $_bubble_transparent: transparentize($osd_bg_color, 0.17);
 $topbar_bg_color: transparentize($dracula, 0.05);
 
-stage {
-  @include fontsize($font-size);
-  color: $fg_color;
-}
+// stage {
+//   @include fontsize($font-size);
+//   color: $fg_color;
+// }
 
 /* WIDGETS */
 
